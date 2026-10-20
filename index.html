@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>کارت‌های سایت‌ها</title>
+<meta name="color-scheme" content="dark">
+<style>
+@font-face{font-family:Peyda;src:url('assets/fonts/Peyda-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Peyda;src:url('assets/fonts/Peyda-Medium.woff2') format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:Peyda;src:url('assets/fonts/Peyda-Bold.woff2') format('woff2');font-weight:700;font-display:swap}
+
+*{box-sizing:border-box}body{margin:0;background:#101312;color:#f4f4ed;font:15px/1.9 Peyda,Tahoma,Arial,sans-serif}a{color:inherit}button{font:inherit}.demo{max-width:1120px;margin:auto;padding:64px 28px 80px}.intro{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:30px}.eyebrow{font-size:11px;letter-spacing:3px;color:#b8d58a;direction:ltr;text-align:right;margin-bottom:12px}h1{font-size:clamp(25px,4vw,38px);font-weight:500;line-height:1.5;margin:0}p{margin:8px 0 0;color:#a9b2ab;font-size:13px}.count{white-space:nowrap;border:1px solid #354137;border-radius:100px;padding:6px 14px;font-size:12px;color:#c9dfaf}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.card{display:block;text-decoration:none;min-width:0;border:1px solid #323a34;border-radius:20px;background:#1a201c;overflow:hidden;transition:transform .25s,border-color .25s,box-shadow .25s}.card:hover{transform:translateY(-6px);border-color:#a6c679;box-shadow:0 20px 48px #0005}.card:focus-visible{outline:3px solid #c0df91;outline-offset:5px}.preview{position:relative;aspect-ratio:3/2;background:radial-gradient(ellipse at 50% 60%,#344839,#202821 60%);overflow:hidden;direction:ltr;border-bottom:1px solid #323a34}.preview img{width:100%;height:100%;object-fit:cover;object-position:top;display:block;transition:transform .5s}.card:hover img{transform:scale(1.025)}.fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;color:#bdc9c0}.fallback svg{width:50px;height:50px;stroke:#b7d58b;fill:none;stroke-width:1.2}.fallback span{font-size:12px;direction:rtl}.preview img{position:relative}.browser{height:33px;padding:0 14px;display:flex;align-items:center;justify-content:space-between;background:#222a24;border-bottom:1px solid #354137;direction:ltr;gap:12px}.dots{display:flex;gap:5px}.dots i{width:5px;height:5px;border-radius:50%;background:#68786b}.address{font:10px/1.4 Arial,sans-serif;color:#bdc9c0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.body{padding:18px}.meta{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px}.host{font:11px/1.5 Arial,sans-serif;letter-spacing:.3px;color:#9ca99f;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;direction:ltr}.tag{font-size:10px;line-height:1.8;color:#c1d9a0;border:1px solid #46513d;border-radius:6px;padding:2px 8px;white-space:nowrap}h2{font-size:17px;line-height:1.85;font-weight:500;margin:0}.description{font-size:12px;line-height:2;min-height:48px;margin-top:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.bottom{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #343e35;margin-top:16px;padding-top:14px;color:#c4e39d;font-size:13px}.arrow{width:32px;height:32px;display:grid;place-items:center;border:1px solid #506344;border-radius:50%;transition:background .2s,color .2s}.card:hover .arrow{background:#c4e39d;color:#14210d}.hint{margin-top:28px;font-size:11px;color:#85958a}.empty{border:1px dashed #536048;padding:30px;border-radius:20px;color:#b5c3b7}.error{color:#e9bb9c} .filters{display:flex;gap:8px;margin:26px 0 30px;flex-wrap:wrap}.filter{cursor:pointer;border:1px solid #354137;background:transparent;color:#aab6ad;border-radius:100px;padding:7px 21px;transition:background .2s,color .2s}.filter[aria-pressed="true"]{background:#c4e39d;color:#16220e;border-color:#c4e39d}.filter:hover{border-color:#b8d58a}.filter:focus-visible{outline:2px solid #c4e39d;outline-offset:4px}.category{margin-bottom:38px}.category[hidden]{display:none}.category-heading{display:flex;align-items:center;gap:12px;margin:0 0 16px;font-size:19px;font-weight:500}.category-heading span{font-size:12px;color:#91a08f;font-weight:400}.category-heading:after{content:"";height:1px;background:#323e32;flex:1;margin-right:8px}@media(min-width:651px) and (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){.demo{padding:36px 18px}.intro{align-items:start;gap:12px}.intro p{max-width:240px}.grid{grid-template-columns:1fr;gap:22px}.count{font-size:10px;padding:5px 10px;margin-top:8px}.body{padding:20px}h2{font-size:18px}}@media(prefers-reduced-motion:reduce){*{transition:none!important;transform:none!important}}
+</style>
+</head>
+<body>
+<main class="demo">
+<div class="intro"><div><div class="eyebrow">A COLLECTION OF IDEAS</div><h1>یک کارت، یک دنیای تازه.</h1><p>پروژه‌ها و ابزارهای من؛ هر کارت، راهی به یک تجربهٔ تازه.</p></div><span class="count" id="count">سایت‌ها</span></div>
+<!-- برای انتقال به صفحه دیگر، این بخش و استایل‌ها و اسکریپت‌ها را نگه دارید. -->
+<nav class="filters" aria-label="فیلتر دسته‌بندی">
+<button class="filter" type="button" data-category="all" aria-pressed="true">همه</button>
+<button class="filter" type="button" data-category="project" aria-pressed="false">پروژه</button>
+<button class="filter" type="button" data-category="tool" aria-pressed="false">ابزار</button>
+</nav>
+<div id="site-cards" aria-label="سایت‌ها و پروژه‌ها"></div>
+<p class="hint">پیش‌نمایش‌ها تصویر ثابت‌اند. سایت‌ها در تب جدید باز می‌شوند.</p>
+<noscript><p>برای نمایش کارت‌ها، جاوااسکریپت مرورگر را فعال کنید.</p></noscript>
+</main>
+<script src="catalog.js"></script>
+<script>
+(() => {
+ const grid=document.getElementById('site-cards');
+ const projects=Array.isArray(window.SITE_CARDS)?window.SITE_CARDS:[];
+ const valid=projects.filter(p=>{try{return ['https:','http:'].includes(new URL(p.url).protocol)}catch{return false}});
+ document.getElementById('count').textContent=new Intl.NumberFormat('fa').format(valid.length)+' سایت';
+ if(!valid.length){const p=document.createElement('p');p.className='empty';p.textContent='هنوز سایتی اضافه نشده است.';grid.append(p);}
+ const groups={};
+ for(const [key,label] of [['project','پروژه'],['tool','ابزار']]){
+  const items=valid.filter(p=>(p.category||'project')===key);
+  if(!items.length)continue;
+  const section=document.createElement('section');section.className='category';section.dataset.category=key;
+  const heading=document.createElement('h2');heading.className='category-heading';heading.textContent=label;
+  const number=document.createElement('span');number.textContent=new Intl.NumberFormat('fa').format(items.length)+' مورد';heading.append(number);
+  const list=document.createElement('div');list.className='grid';section.append(heading,list);grid.append(section);groups[key]=list;
+ }
+ valid.forEach(p=>{
+  const url=new URL(p.url),a=document.createElement('a');a.className='card';a.href=url.href;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',(p.title||url.hostname)+' — باز شدن در تب جدید');
+  // ساختار ثابت است؛ داده‌های سایت فقط با textContent وارد می‌شوند.
+  a.innerHTML='<div class="browser" aria-hidden="true"><div class="dots"><i></i><i></i><i></i></div><span class="address"></span><span>↗</span></div><div class="preview"><div class="fallback"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="5" y="8" width="38" height="30" rx="4"/><path d="M5 16h38M12 12h1m4 0h1m4 0h1M16 25l-5 4 5 4m16-8 5 4-5 4m-6-11-4 14"/></svg><span>پیش‌نمایش تصویری هنوز آماده نیست</span></div></div><div class="body"><div class="meta"><span class="host"></span><span class="tag">وب‌سایت</span></div><h2></h2><p class="description"></p><div class="bottom"><span>مشاهده سایت</span><span class="arrow" aria-hidden="true">↖</span></div></div>';
+  a.querySelector('.address').textContent=url.hostname+decodeURI(url.pathname);
+  a.querySelector('.host').textContent=url.hostname;
+  a.querySelector('.tag').textContent=p.category==='tool'?'ابزار':'پروژه';
+  a.querySelector('h2').textContent=p.title||decodeURI(url.pathname).split('/').filter(Boolean).pop()||url.hostname;
+  a.querySelector('.description').textContent=p.description||'برای آشنایی بیشتر، وارد سایت شوید.';
+  if(p.image){const img=document.createElement('img');img.src=p.image;img.alt='پیش‌نمایش '+(p.title||url.hostname);img.loading='lazy';img.decoding='async';img.width=1200;img.height=800;img.addEventListener('error',()=>img.remove());a.querySelector('.preview').append(img);}
+  (groups[p.category||'project']||grid).append(a);
+ });
+ document.querySelectorAll('.filter').forEach(button=>button.addEventListener('click',()=>{
+  const selected=button.dataset.category;
+  document.querySelectorAll('.filter').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+  document.querySelectorAll('.category').forEach(section=>section.hidden=selected!=='all'&&section.dataset.category!==selected);
+  const count=selected==='all'?valid.length:valid.filter(p=>(p.category||'project')===selected).length;
+  document.getElementById('count').textContent=new Intl.NumberFormat('fa').format(count)+' سایت';
+ }));
+})();
+</script>
+</body></html>
