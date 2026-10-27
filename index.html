@@ -32,8 +32,8 @@ html[lang="en"] .preview .fallback span{direction:ltr}
 <!-- برای انتقال به صفحه دیگر، این بخش و استایل‌ها و اسکریپت‌ها را نگه دارید. -->
 <nav class="filters" aria-label="Category filters">
 <button class="filter" type="button" data-category="all" aria-pressed="true"><span data-i18n="all">All</span></button>
-<button class="filter" type="button" data-category="project" aria-pressed="false"><span data-i18n="projectPlural">Projects</span></button>
 <button class="filter" type="button" data-category="tool" aria-pressed="false"><span data-i18n="toolPlural">Tools</span></button>
+<button class="filter" type="button" data-category="project" aria-pressed="false"><span data-i18n="projectPlural">Projects</span></button>
 </nav>
 <div id="site-cards" aria-label="Sites and projects"></div>
 <p class="hint" id="hint">Previews are static images. Websites open in a new tab.</p>
@@ -67,7 +67,7 @@ html[lang="en"] .preview .fallback span{direction:ltr}
   grid.replaceChildren();
   if(!valid.length){const p=document.createElement('p');p.className='empty';p.textContent=t().empty;grid.append(p);return;}
   const groups={};
-  for(const key of ['project','tool']){
+  for(const key of ['tool','project']){
    const items=valid.filter(p=>(p.category||'project')===key);
    if(!items.length||selected!=='all'&&selected!==key)continue;
    const section=document.createElement('section');section.className='category';section.dataset.category=key;
