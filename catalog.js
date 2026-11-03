@@ -1,5 +1,13 @@
 window.SITE_CARDS = [
   {
+    "url": "https://bashir-84.github.io/door/",
+    "title": "دور؛ بازی گروهی کلمات",
+    "description": "بازی رقابتی و زمان‌دار کلمات برای دورهمی‌ها؛ با تیم‌بندی، نوبت‌های چرخشی، تایمر و ثبت نتیجه.",
+    "category": "tool",
+    "titleEn": "Dowr — Team Word Game",
+    "descriptionEn": "A fast-paced team word game for gatherings, featuring team setup, rotating turns, timed rounds, and score tracking."
+  },
+  {
     "url": "https://bashir-84.github.io/Music-a-language-that-needs-no-translation./",
     "title": "موسیقی؛ زبانی که نیاز به ترجمه ندارد",
     "description": "رسیتال موسیقی؛ آشنایی با برنامهٔ اجرا، هنرمندان و قطعات.",
