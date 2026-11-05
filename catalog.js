@@ -1,6 +1,6 @@
 window.SITE_CARDS = [
   {
-    "url": "https://bashir-84.github.io/door/",
+    "url": "https://bashiramri.ir/dowr/",
     "title": "دور؛ بازی گروهی کلمات",
     "description": "بازی رقابتی و زمان‌دار کلمات برای دورهمی‌ها؛ با تیم‌بندی، نوبت‌های چرخشی، تایمر و ثبت نتیجه.",
     "category": "tool",
