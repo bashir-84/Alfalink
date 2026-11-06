@@ -1,7 +1,7 @@
 window.SITE_CARDS = [
   {
     "url": "https://bashiramri.ir/dowr/",
-    "image": "assets/dowr-preview.svg",
+    "image": "assets/dowr-home-preview.png",
     "title": "دور؛ بازی گروهی کلمات",
     "description": "بازی رقابتی و زمان‌دار کلمات برای دورهمی‌ها؛ با تیم‌بندی، نوبت‌های چرخشی، تایمر و ثبت نتیجه.",
     "category": "tool",
